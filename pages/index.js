@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Header from "../components/Header/Header";
+import { sanityClient } from "../sanity";
 import Banner from "./../components/Banner/Banner";
+import Posts from "./../components/Posts/Posts";
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <div className="max-w-7xl mx-auto">
       <Head>
@@ -15,7 +17,31 @@ export default function Home() {
       {/* main starts here */}
       <main>
         <Banner />
+
+        {/* posts */}
+        <Posts posts={posts} />
       </main>
     </div>
   );
+}
+
+export async function getServerSideProps(context) {
+  const query = `*[_type == "post"]{
+    _id,
+    title,
+    author ->{
+    name,
+    image
+  },
+  description,
+  mainImage,
+  slug
+  }`;
+
+  const posts = await sanityClient.fetch(query);
+  return {
+    props: {
+      posts,
+    },
+  };
 }

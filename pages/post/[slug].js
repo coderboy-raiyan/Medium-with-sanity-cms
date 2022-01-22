@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import PortableText from "react-portable-text";
+import Comments from "../../components/Comments/Comments";
 import Header from "../../components/Header/Header";
 import { sanityClient, urlFor } from "../../sanity";
 
@@ -63,6 +64,11 @@ const Post = ({ post }) => {
           />
         </div>
       </article>
+
+      <hr className="max-w-lg my-5 mx-auto border border-yellow-500" />
+
+      {/* comments area starts*/}
+      <Comments />
     </main>
   );
 };

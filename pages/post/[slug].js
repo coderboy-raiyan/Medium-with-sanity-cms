@@ -68,7 +68,7 @@ const Post = ({ post }) => {
       <hr className="max-w-lg my-5 mx-auto border border-yellow-500" />
 
       {/* comments area starts*/}
-      <Comments />
+      <Comments post={post} />
     </main>
   );
 };

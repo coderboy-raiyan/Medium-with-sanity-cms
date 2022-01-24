@@ -3,8 +3,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header>
-      <div className="flex items-center space-x-5 justify-between p-5 max-w-7xl mx-auto">
+    <header className="sticky top-0 bg-white shadow z-50">
+      <div className="flex items-center space-x-5 justify-between py-6 px-4  mx-auto">
         <div className="flex items-center space-x-5">
           <Link href="/" passHref>
             {/*  eslint-disable-next-line @next/next/no-img-element */}

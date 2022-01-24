@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import { sanityClient } from "../sanity";
 import Banner from "./../components/Banner/Banner";
@@ -19,8 +20,13 @@ export default function Home({ posts }) {
         <Banner />
 
         {/* posts */}
-        <Posts posts={posts} />
+        <div className="pt-6 pb-20">
+          <Posts posts={posts} />
+        </div>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

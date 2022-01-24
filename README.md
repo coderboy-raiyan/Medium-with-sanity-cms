@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Medium 2.0](https://medium-with-sanity-cms.vercel.app/)
 
-## Getting Started
+## Features
 
-First, run the development server:
+<dl>
+  <dd>▶  Admin can publish his/her blog on the website</dd>
+  <dd>▶  Post a blog system maintaining with Sanity CMS as a backend</dd>
+  <dd>▶  User can comment on a blog</dd>
+  <dd>▶  But when user give a comment on a blog post. The comment didn't show directly for prevent threats</dd>
+  <dd>▶  Then after admin see the comment.  Admin can approve the comment and then it will be visible</dd>
+</dl>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Live preview](https://medium-with-sanity-cms.vercel.app/)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Screenshot
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+![react-pro-sidebar](https://i.postimg.cc/J0vmgCY0/Screenshot-48.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🚀 Connect with me
 
-## Learn More
+[![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tajkierhaque/)
+[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/tajkier_haque/)
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tajkier-haque)
+[![Github Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/coderboy-raiyan)
+[![Mail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tajkierhaque@gmail.com)
+[![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/Raiyan#6557)
 
-To learn more about Next.js, take a look at the following resources:
+## Upcoming updates
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<dl>
+  <dd>✅  User Authentication with firebase</dd>
+  <dd>✅  User can able to post a blog from front end</dd>
+  <dd>✅  And many more stay tuned</dd>
+</dl>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+MIT © [MD.Tajkier Haque Raiyan](https://raiyanio.netlify.app/)
